@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Profile card component</title>
+  </head>
+  <body
+    class="h-screen flex justify-center items-center bg-seagren overflow-hidden bg-seagreen"
+  >
+    <div class="relative">
+      <div class="rounded-2xl bg-white overflow-hidden mx-7 relative z-10">
+        <img src="./images/bg-pattern-card.svg" alt="card" />
+        <div class="text-center relative pt-20">
+          <img
+            src="./images/image-victor.jpg"
+            alt="victor"
+            class="p-1.5 bg-white rounded-full w-2/5 max-w-30 absolute top-[-50px] left-[31%]"
+          />
+          <p class="font-bold text-xl">
+            Victor Crest <span class="text-gray-500 font-medium">26</span>
+          </p>
+          <p class="text-gray-500 font-medium">London</p>
+        </div>
+        <div
+          class="flex py-5 text-xl justify-evenly border-t border-t-gray-300 mt-5"
+        >
+          <div>
+            <span class="block font-bold text-center">80K</span
+            ><span class="text-sm tracking-wider text-gray-500">Followers</span>
+          </div>
+          <div>
+            <span class="block font-bold text-center">803K</span
+            ><span class="text-sm tracking-wider text-gray-500">Likes</span>
+          </div>
+          <div>
+            <span class="block font-bold text-center">1.4K</span
+            ><span class="text-sm tracking-wider text-gray-500">Photos</span>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./images/bg-pattern-top.svg"
+        alt="bg-pattern-top"
+        class="absolute max-w-5xl -top-[800px] -left-[730px]"
+      />
+      <img
+        src="./images/bg-pattern-bottom.svg"
+        alt="pattern-bottom"
+        class="absolute max-w-5xl -bottom-[800px] -right-[730px] z-0"
+      />
+    </div>
+  </body>
+</html>
