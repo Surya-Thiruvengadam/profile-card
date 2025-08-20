@@ -1,20 +1,30 @@
 {
   "name": "profile-card-component-main",
   "version": "1.0.0",
-  "description": "![Design preview for the Profile card component coding challenge](preview.jpg)",
-  "main": "index.js",
+  "description": "",
+  "main": "vite.config.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Surya-Thiruvengadam/profile-card.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
+  "bugs": {
+    "url": "https://github.com/Surya-Thiruvengadam/profile-card/issues"
+  },
+  "homepage": "https://github.com/Surya-Thiruvengadam/profile-card#readme",
   "dependencies": {
     "@tailwindcss/vite": "^4.1.12",
-    "tailwindcss": "^4.1.12",
+    "tailwindcss": "^4.1.12"
+  },
+  "devDependencies": {
     "vite": "^6.3.5"
   }
 }
